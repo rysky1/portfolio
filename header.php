@@ -8,7 +8,7 @@
   <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css?ver=5.8.2">
   <link href="<?php bloginfo('stylesheet_url'); ?>" rel="stylesheet">
-  <script src="<?php bloginfo( 'stylesheet_directory' ); ?>/https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
 </head>
 <?php wp_head(); ?>
 <script>

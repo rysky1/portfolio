@@ -572,7 +572,7 @@ body {
   text-align: center;
 }
 
-.contact-items__btn__input {
+input.wpcf7-form-control.wpcf7-submit{
   display: inline-block;
   text-align: center;
   margin: 35px auto 0;
@@ -585,7 +585,7 @@ body {
   color: #fff;
 }
 
-.contact-items__btn__input:hover {
+input.wpcf7-form-control.wpcf7-submit:hover{
   opacity: 0.5;
 }
 
@@ -685,6 +685,9 @@ body {
   .about-txt {
     margin: 0 auto;
   }
+  .skills-content {
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  }
   .skills-content__box h2 {
     margin-top: 20px;
     font-size: 25px;
@@ -730,9 +733,6 @@ body {
   .about__img-area img {
     width: 280px;
     height: 280px;
-  }
-  .skills-content {
-    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
   }
   .skills-content__box {
     width: 300px;

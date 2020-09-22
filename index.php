@@ -34,7 +34,7 @@
     <div class="about-container">
       <div class="about__img-area">
         <img src="<?php bloginfo( 'stylesheet_directory' ); ?>/img/icon.jpg" alt="">
-        <a href=""><i class="fab fa-github"></i>Github</a>
+        <a href="https://github.com/rysky1"><i class="fab fa-github"></i>Github</a>
       </div>
       <div class="about__txtbox">
         <div class="about-txt">
@@ -136,8 +136,8 @@
             <img src="<?php bloginfo( 'stylesheet_directory' ); ?>/img/portfolio.png" alt="">
           </div>
           <div class="works-content__Google-D">
-            <a href="">PCイメージ（GoogleDrive）</a>
-            <a href="">SPイメージ（GoogleDrive）</a>
+            <a href="https://drive.google.com/file/d/1p_iMnJaBYc9kKJQOtcqgZ1Xt1pId3bv5/view?usp=sharing">PCイメージ（GoogleDrive）</a>
+            <a href="https://drive.google.com/file/d/1kvyOk9jOv5UWWFOnWSiR2R10PwQZy6oT/view?usp=sharing">SPイメージ（GoogleDrive）</a>
           </div>
         </div>
         <div class="works-content__inner works-content__inner__left">
@@ -148,7 +148,7 @@
           </div>
           <div class="works-content__detail">
             <h4>ソースコード</h4>
-            <a href=""><i class="fab fa-github"></i>GitHub(myportfolio)</a>
+            <a href="https://github.com/rysky1/portfolio"><i class="fab fa-github"></i>GitHub(portfolio)</a>
           </div>
           <div class="works-content__detail">
             <h4>補足資料</h4>
@@ -169,8 +169,8 @@
             <img src="<?php bloginfo( 'stylesheet_directory' ); ?>/img/lyon.png" alt="">
           </div>
           <div class="works-content__Google-D">
-            <a href="">PCイメージ（GoogleDrive）</a>
-            <a href="">SPイメージ（GoogleDrive）</a>
+            <a href="https://drive.google.com/file/d/12Co23pq_3-KbFV2crcA_3dadtjdahP-a/view?usp=sharing">PCイメージ（GoogleDrive）</a>
+            <a href="https://drive.google.com/file/d/1XSg1sKEPSzoIhJmXfiRZAfyuCrhjLPVP/view?usp=sharing">SPイメージ（GoogleDrive）</a>
           </div>
           <div class="works-content__link">
             <a href="https://rysky1.github.io/Lyon/">サイトへのリンク></a>
@@ -205,7 +205,7 @@
             <img src="<?php bloginfo( 'stylesheet_directory' ); ?>/img/psd.png" alt="">
           </div>
           <div class="works-content__Google-D">
-            <a href="">PCイメージ（GoogleDrive）</a>
+            <a href="https://drive.google.com/file/d/1R8V2hql4zweWDVryHamVESeXgYWXEUba/view?usp=sharing">PCイメージ（GoogleDrive）</a>
           </div>
           <div class="works-content__link">
             <a href="https://rysky1.github.io/portfolio-psd/">サイトへのリンク></a>
@@ -240,8 +240,8 @@
             <img src="<?php bloginfo( 'stylesheet_directory' ); ?>/img/Airbnb.png" alt="">
           </div>
           <div class="works-content__Google-D">
-            <a href="">PCイメージ（GoogleDrive）</a>
-            <a href="">SPイメージ（GoogleDrive）</a>
+            <a href="https://drive.google.com/file/d/1sMrVdMuwWc04bT3l8c6sOcL9cdcngcfe/view?usp=sharing">PCイメージ（GoogleDrive）</a>
+            <a href="https://drive.google.com/file/d/16oHOdHt4HTTJKBq2qTSqBEj3lWsbOYtA/view?usp=sharing">SPイメージ（GoogleDrive）</a>
           </div>
         </div>
         <div class="works-content__inner works-content__inner__left">
@@ -266,8 +266,8 @@
             <img src="<?php bloginfo( 'stylesheet_directory' ); ?>/img/webstores.png" alt="">
           </div>
           <div class="works-content__Google-D">
-            <a href="">PCイメージ（GoogleDrive）</a>
-            <a href="">SPイメージ（GoogleDrive）</a>
+            <a href="https://drive.google.com/file/d/1_g49kdPEeK_kGWokm89E3qLuRq7Dye1g/view?usp=sharing">PCイメージ（GoogleDrive）</a>
+            <a href="https://drive.google.com/file/d/1vFpITaI3E25Xd4qp_98Aj_Ql96-SjNtK/view?usp=sharing">SPイメージ（GoogleDrive）</a>
           </div>
           <div class="works-content__link">
             <a href="https://rysky1.github.io/Business-Website/">サイトへのリンク></a>
@@ -288,5 +288,5 @@
     </div>  
   </div>
   <!-------------contact----------------->
-  <?php echo do_shortcode( '[contact-form-7 id="40" title="お問い合わせフォーム"]' ); ?>
-  <?php get_footer(); ?>
+  <?php echo do_shortcode('[contact-form-7 id="40" title="お問い合わせフォーム"]'); ?>
+<?php get_footer(); ?>

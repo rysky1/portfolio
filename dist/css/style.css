@@ -800,6 +800,9 @@ body {
   .about-txt {
     margin: 0 auto;
   }
+  .skills-content {
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  }
   .skills-content__box h2 {
     margin-top: 15px;
     font-size: 25px;
@@ -840,9 +843,6 @@ body {
   .about__img-area img {
     width: 280px;
     height: 280px;
-  }
-  .skills-content {
-    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
   }
   .skills-content__box {
     width: 300px;
